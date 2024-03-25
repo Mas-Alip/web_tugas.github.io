@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'SamsungOne 400';
+    font-style: normal;
+    font-weight: normal;
+    src:local('SamsungOne 400'), url('/fonts/SamsungOne-400.woff') format('woff');
+}
+@font-face {
+    font-family: 'SamsungOne 700';
+    font-style: normal;
+    font-weight: normal;
+    src:local('SamsungOne 700'), url('/fonts/SamsungOne-700.woff') format('woff');
+}
+@font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src:local('Samsung Sharp Sans Bold'), url('/fonts/SamsungSharpSans-Bold.ttf') format('ttf');
+}
+
+html, body, ul, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'SamsungOne 400',aril, sans-serif;
+    font-size: 14px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+}
+
+#page{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    padding: 30px 0;
+}
+header .logo{
+    display: flex;
+}
+header .logo .menu{
+    margin-left: 35px;
+}
+header .logo .menu li{
+    display: inline-block;
+}
+
+header .explore-menu li, header .explore-menu-icon li{
+    display: inline-block;
+}
+
+header .explore{
+    display: flex;
+    margin: auto;
+    margin-right: 20px;
+}
+
+header .explore-menu li a, header .menu li a{
+    font-family: 'SamsungOne 700', arial, sans-serif;
+}
